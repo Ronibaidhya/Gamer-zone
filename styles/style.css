@@ -273,3 +273,65 @@ header {
     text-align: left;
     margin-top: 15px;
 }
+
+/* play instant section */
+
+.play-section {
+    max-width: 1240px;
+    margin: 80px auto;
+}
+
+.play-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.play-text {
+    width: 50%;
+}
+
+.play-image {
+    width: 50%;
+}
+
+.play-image .play-first-img {
+    width: 100%;
+}
+
+
+.play-text {
+    text-align: right;
+    margin-right: 120px;
+    padding-right: 30px;
+}
+
+.play-text .Play-heading {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.play-text .Play-instantly {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-text .Play-description {
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.play-image .img {
+    position: relative;
+}
+
+.play-second-img {
+    position: absolute;
+    top: 50%;
+    left: -25%;
+}
