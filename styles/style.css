@@ -1,10 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
-
+/* shared css */
 body{
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
+.btn-primary {
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px 38px;
+    border-radius: 48px;
+    border: none;
+    cursor: pointer;
+}
+
 
 /* header section */
 header {
@@ -70,5 +81,78 @@ header {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: normal;
-    cursor: pointer;
+}
+
+
+
+/* banner section */
+
+.banner-container {
+    display: flex;
+    max-width: 1240px;
+    margin: 0 auto;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-text-container .banner-heading {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-text-container .banner-sub-heading {
+    font-size: 5.9rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-text_container .banner-description {
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin: 15px 0;
+}
+
+.btn-signin {
+    background: #FF42A5;
+}
+
+.btn-signin:hover {
+    background: #da0070ad;
+}
+
+.btn-gorogue {
+    background: #4EC5F7;
+    margin-left: 20px;
+}
+
+.btn-gorogue:hover {
+    background: #0294d3c4;
+}
+
+.banner-text-container i {
+    color: #FF42A5;
+    margin-right: 5px;
+}
+
+.banner-text-container button {
+    margin-top: 20px;
+}
+
+.banner-image {
+    width: 50%;
+}
+
+.banner-image img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: -5px;
 }
