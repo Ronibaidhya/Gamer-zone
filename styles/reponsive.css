@@ -1,0 +1,140 @@
+ /* mobile section */
+
+ @media screen and (max-width: 575.98px) {
+
+    /* Header section */
+    header{
+        background: none;
+        box-shadow: none;
+    }
+    .nav-section{
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    /* banner section */
+    .banner-container{
+        flex-direction: column;
+        flex-flow: column-reverse;
+        align-items: center;
+        margin: 0 30px;
+    }
+    
+    .banner-text-container{
+        width: 100%;
+        
+    }
+    
+    .banner-image{
+        width: 100%;
+    }
+
+    /* Gamer section */
+    .gamer-section{
+        background: none;
+    }
+    .gamer-container{
+        flex-direction: column;
+    }
+
+    .gamer-image {
+        width: 100%;
+        margin-bottom: -100px;
+    }
+
+    .gamer-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    
+
+    .gamer-text.gamer-sub-description {
+        margin-top: 50px;
+    }
+
+    .online-game-container{
+        margin: 30px 20px;
+    }
+
+    .game-card-container {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* Play instant section  */
+    .play-container {
+        flex-direction: column;
+        text-align: center;
+        margin: 0 20px;
+        padding-left: 20px;
+    }
+
+    .play-text{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .play-text {
+        width: 100%;
+    }
+    
+    .play-text .Play-instantly-description{
+        margin: 30px 0;
+    }
+    .play-image {
+        width: 70%;
+    }
+
+    .play-image .play-second-img{
+        width: 40%;
+    }
+
+    .play-second-img{
+        top: 65%;
+        left: -15%;
+    }
+
+    /* hover related section */
+    .hover-section {
+        margin: 50px 50px;
+    }
+    .list-one {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .list-two {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+    .game-list {
+        width: 200px;
+    }
+
+/* footer section */
+.footer-menus {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.terms-and-condition a{
+    display: inline-block;
+    margin: 10px;
+}
+
+}
