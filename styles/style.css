@@ -81,6 +81,11 @@ header {
     font-weight: 500;
     line-height: normal;
 }
+.nav-btn:hover{
+    color: #fff;
+    background-color: #FF42A5;
+    transition: 0.5s;
+}
 
 
 
@@ -334,4 +339,47 @@ header {
     position: absolute;
     top: 50%;
     left: -25%;
+}
+
+/* hover related section */
+
+.hover-section {
+    max-width: 1240px;
+    margin: 170px auto 0;
+}
+
+.list-one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.list-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.game-list {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.game-list p {
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.game-list:hover {
+    color: #F948B2;
+    border: 1px solid #F948B2;
+    border-radius: 50px;
 }
